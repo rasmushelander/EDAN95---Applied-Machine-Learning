@@ -1,0 +1,7718 @@
+// The Decision Tree
+digraph {
+	0 [label="
+id: 0
+label: 3
+attribute: pixel_37
+entropy: 3.320265565233921
+samples: 1257
+classCounts: [124, 130, 119, 139, 130, 129, 121, 122, 125, 118]"]
+	1 [label="
+id: 1
+label: 0
+attribute: pixel_35
+entropy: 1.5720107088334503
+samples: 191
+classCounts: [121, 0, 2, 0, 3, 19, 3, 0, 3, 40]"]
+	2 [label="
+id: 2
+label: 9
+attribute: pixel_60
+entropy: 0.560279318984369
+samples: 39
+classCounts: [0, 0, 1, 0, 0, 3, 0, 0, 0, 35]"]
+	3 [label="
+id: 3
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	3 [label="
+id: 3
+value: 7
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	2 -> 3
+	4 [label="
+id: 4
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	4 [label="
+id: 4
+value: 9
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	2 -> 4
+	5 [label="
+id: 5
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	5 [label="
+id: 5
+value: 10
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	2 -> 5
+	6 [label="
+id: 6
+value: 11
+label: 9
+entropy: -0.0
+samples: 4
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 4]"]
+	2 -> 6
+	7 [label="
+id: 7
+value: 12
+label: 9
+entropy: -0.0
+samples: 3
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 3]"]
+	2 -> 7
+	8 [label="
+id: 8
+value: 13
+label: 9
+entropy: -0.0
+samples: 6
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 6]"]
+	2 -> 8
+	9 [label="
+id: 9
+value: 14
+label: 9
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2]"]
+	2 -> 9
+	10 [label="
+id: 10
+value: 15
+label: 9
+entropy: -0.0
+samples: 4
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 4]"]
+	2 -> 10
+	2 [label="
+id: 2
+value: 0
+label: 9
+attribute: pixel_60
+entropy: 0.560279318984369
+samples: 39
+classCounts: [0, 0, 1, 0, 0, 3, 0, 0, 0, 35]"]
+	1 -> 2
+	11 [label="
+id: 11
+label: 9
+attribute: pixel_3
+entropy: 0.8112781244591328
+samples: 4
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 3]"]
+	12 [label="
+id: 12
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	12 [label="
+id: 12
+value: 1
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	11 -> 12
+	13 [label="
+id: 13
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	13 [label="
+id: 13
+value: 5
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	11 -> 13
+	14 [label="
+id: 14
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	14 [label="
+id: 14
+value: 6
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	11 -> 14
+	15 [label="
+id: 15
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	15 [label="
+id: 15
+value: 9
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	11 -> 15
+	11 [label="
+id: 11
+value: 1
+label: 9
+attribute: pixel_3
+entropy: 0.8112781244591328
+samples: 4
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 3]"]
+	1 -> 11
+	16 [label="
+id: 16
+label: 5
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 1]"]
+	17 [label="
+id: 17
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	17 [label="
+id: 17
+value: 0
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	16 -> 17
+	18 [label="
+id: 18
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	18 [label="
+id: 18
+value: 1
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	16 -> 18
+	16 [label="
+id: 16
+value: 2
+label: 5
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 1]"]
+	1 -> 16
+	19 [label="
+id: 19
+label: 0
+attribute: pixel_12
+entropy: 0.9544340029249649
+samples: 8
+classCounts: [5, 0, 0, 0, 0, 3, 0, 0, 0, 0]"]
+	20 [label="
+id: 20
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	20 [label="
+id: 20
+value: 3
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	19 -> 20
+	21 [label="
+id: 21
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	21 [label="
+id: 21
+value: 5
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	19 -> 21
+	22 [label="
+id: 22
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	22 [label="
+id: 22
+value: 6
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	19 -> 22
+	23 [label="
+id: 23
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	23 [label="
+id: 23
+value: 7
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	19 -> 23
+	24 [label="
+id: 24
+value: 8
+label: 0
+entropy: -0.0
+samples: 2
+classCounts: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	19 -> 24
+	25 [label="
+id: 25
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	25 [label="
+id: 25
+value: 9
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	19 -> 25
+	26 [label="
+id: 26
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	26 [label="
+id: 26
+value: 13
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	19 -> 26
+	19 [label="
+id: 19
+value: 4
+label: 0
+attribute: pixel_12
+entropy: 0.9544340029249649
+samples: 8
+classCounts: [5, 0, 0, 0, 0, 3, 0, 0, 0, 0]"]
+	1 -> 19
+	27 [label="
+id: 27
+label: 0
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [2, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	28 [label="
+id: 28
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	28 [label="
+id: 28
+value: 1
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	27 -> 28
+	29 [label="
+id: 29
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	29 [label="
+id: 29
+value: 4
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	27 -> 29
+	30 [label="
+id: 30
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	30 [label="
+id: 30
+value: 10
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	27 -> 30
+	27 [label="
+id: 27
+value: 5
+label: 0
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [2, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	1 -> 27
+	31 [label="
+id: 31
+value: 6
+label: 0
+entropy: -0.0
+samples: 2
+classCounts: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	1 -> 31
+	32 [label="
+id: 32
+label: 0
+attribute: pixel_14
+entropy: 1.4488156357251847
+samples: 7
+classCounts: [3, 0, 0, 0, 1, 3, 0, 0, 0, 0]"]
+	33 [label="
+id: 33
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	33 [label="
+id: 33
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	32 -> 33
+	34 [label="
+id: 34
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	34 [label="
+id: 34
+value: 4
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	32 -> 34
+	35 [label="
+id: 35
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	35 [label="
+id: 35
+value: 5
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	32 -> 35
+	36 [label="
+id: 36
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	36 [label="
+id: 36
+value: 7
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	32 -> 36
+	37 [label="
+id: 37
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	37 [label="
+id: 37
+value: 14
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	32 -> 37
+	38 [label="
+id: 38
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	38 [label="
+id: 38
+value: 15
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	32 -> 38
+	32 [label="
+id: 32
+value: 7
+label: 0
+attribute: pixel_14
+entropy: 1.4488156357251847
+samples: 7
+classCounts: [3, 0, 0, 0, 1, 3, 0, 0, 0, 0]"]
+	1 -> 32
+	39 [label="
+id: 39
+value: 8
+label: 0
+entropy: -0.0
+samples: 18
+classCounts: [18, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	1 -> 39
+	40 [label="
+id: 40
+label: 0
+attribute: pixel_3
+entropy: 0.4394969869215134
+samples: 11
+classCounts: [10, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	41 [label="
+id: 41
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	41 [label="
+id: 41
+value: 0
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	40 -> 41
+	42 [label="
+id: 42
+value: 2
+label: 0
+entropy: -0.0
+samples: 2
+classCounts: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	40 -> 42
+	43 [label="
+id: 43
+value: 3
+label: 0
+entropy: -0.0
+samples: 2
+classCounts: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	40 -> 43
+	44 [label="
+id: 44
+value: 4
+label: 0
+entropy: -0.0
+samples: 3
+classCounts: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	40 -> 44
+	45 [label="
+id: 45
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	45 [label="
+id: 45
+value: 5
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	40 -> 45
+	46 [label="
+id: 46
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	46 [label="
+id: 46
+value: 9
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	40 -> 46
+	47 [label="
+id: 47
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	47 [label="
+id: 47
+value: 10
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	40 -> 47
+	40 [label="
+id: 40
+value: 9
+label: 0
+attribute: pixel_3
+entropy: 0.4394969869215134
+samples: 11
+classCounts: [10, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	1 -> 40
+	48 [label="
+id: 48
+label: 0
+attribute: pixel_11
+entropy: 0.7345299214394703
+samples: 14
+classCounts: [12, 0, 1, 0, 0, 0, 1, 0, 0, 0]"]
+	49 [label="
+id: 49
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	49 [label="
+id: 49
+value: 0
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	48 -> 49
+	50 [label="
+id: 50
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	50 [label="
+id: 50
+value: 1
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	48 -> 50
+	51 [label="
+id: 51
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	51 [label="
+id: 51
+value: 5
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	48 -> 51
+	52 [label="
+id: 52
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	52 [label="
+id: 52
+value: 9
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	48 -> 52
+	53 [label="
+id: 53
+value: 11
+label: 0
+entropy: -0.0
+samples: 2
+classCounts: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	48 -> 53
+	54 [label="
+id: 54
+value: 15
+label: 0
+entropy: -0.0
+samples: 4
+classCounts: [4, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	48 -> 54
+	48 [label="
+id: 48
+value: 10
+label: 0
+attribute: pixel_11
+entropy: 0.7345299214394703
+samples: 14
+classCounts: [12, 0, 1, 0, 0, 0, 1, 0, 0, 0]"]
+	1 -> 48
+	55 [label="
+id: 55
+value: 11
+label: 0
+entropy: -0.0
+samples: 6
+classCounts: [6, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	1 -> 55
+	56 [label="
+id: 56
+value: 12
+label: 0
+entropy: -0.0
+samples: 16
+classCounts: [16, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	1 -> 56
+	57 [label="
+id: 57
+value: 13
+label: 0
+entropy: -0.0
+samples: 12
+classCounts: [12, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	1 -> 57
+	58 [label="
+id: 58
+label: 0
+attribute: pixel_3
+entropy: 1.0957952550009338
+samples: 11
+classCounts: [8, 0, 0, 0, 0, 1, 0, 0, 2, 0]"]
+	59 [label="
+id: 59
+value: 0
+label: 0
+entropy: -0.0
+samples: 2
+classCounts: [2, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	58 -> 59
+	60 [label="
+id: 60
+value: 2
+label: 0
+entropy: -0.0
+samples: 3
+classCounts: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	58 -> 60
+	61 [label="
+id: 61
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	61 [label="
+id: 61
+value: 3
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	58 -> 61
+	62 [label="
+id: 62
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	62 [label="
+id: 62
+value: 4
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	58 -> 62
+	63 [label="
+id: 63
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	63 [label="
+id: 63
+value: 5
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	58 -> 63
+	64 [label="
+id: 64
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	64 [label="
+id: 64
+value: 6
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	58 -> 64
+	65 [label="
+id: 65
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	65 [label="
+id: 65
+value: 7
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	58 -> 65
+	66 [label="
+id: 66
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	66 [label="
+id: 66
+value: 10
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	58 -> 66
+	58 [label="
+id: 58
+value: 14
+label: 0
+attribute: pixel_3
+entropy: 1.0957952550009338
+samples: 11
+classCounts: [8, 0, 0, 0, 0, 1, 0, 0, 2, 0]"]
+	1 -> 58
+	67 [label="
+id: 67
+label: 0
+attribute: pixel_3
+entropy: 1.3709505944546687
+samples: 5
+classCounts: [3, 0, 0, 0, 0, 1, 0, 0, 1, 0]"]
+	68 [label="
+id: 68
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	68 [label="
+id: 68
+value: 0
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	67 -> 68
+	69 [label="
+id: 69
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	69 [label="
+id: 69
+value: 2
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	67 -> 69
+	70 [label="
+id: 70
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	70 [label="
+id: 70
+value: 4
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	67 -> 70
+	71 [label="
+id: 71
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	71 [label="
+id: 71
+value: 5
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	67 -> 71
+	72 [label="
+id: 72
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	72 [label="
+id: 72
+value: 13
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	67 -> 72
+	67 [label="
+id: 67
+value: 15
+label: 0
+attribute: pixel_3
+entropy: 1.3709505944546687
+samples: 5
+classCounts: [3, 0, 0, 0, 0, 1, 0, 0, 1, 0]"]
+	1 -> 67
+	1 [label="
+id: 1
+value: 0
+label: 0
+attribute: pixel_35
+entropy: 1.5720107088334503
+samples: 191
+classCounts: [121, 0, 2, 0, 3, 19, 3, 0, 3, 40]"]
+	0 -> 1
+	73 [label="
+id: 73
+label: 9
+attribute: pixel_19
+entropy: 2.594195041880603
+samples: 27
+classCounts: [1, 3, 3, 1, 2, 5, 0, 0, 2, 10]"]
+	74 [label="
+id: 74
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	74 [label="
+id: 74
+value: 0
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	73 -> 74
+	75 [label="
+id: 75
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	75 [label="
+id: 75
+value: 1
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	73 -> 75
+	76 [label="
+id: 76
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	76 [label="
+id: 76
+value: 4
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	73 -> 76
+	77 [label="
+id: 77
+label: 2
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 1]"]
+	78 [label="
+id: 78
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	78 [label="
+id: 78
+value: 1
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	77 -> 78
+	79 [label="
+id: 79
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	79 [label="
+id: 79
+value: 2
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	77 -> 79
+	77 [label="
+id: 77
+value: 5
+label: 2
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 1]"]
+	73 -> 77
+	80 [label="
+id: 80
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	80 [label="
+id: 80
+value: 6
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	73 -> 80
+	81 [label="
+id: 81
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	81 [label="
+id: 81
+value: 7
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	73 -> 81
+	82 [label="
+id: 82
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	82 [label="
+id: 82
+value: 9
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	73 -> 82
+	83 [label="
+id: 83
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	83 [label="
+id: 83
+value: 10
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	73 -> 83
+	84 [label="
+id: 84
+label: 1
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	85 [label="
+id: 85
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	85 [label="
+id: 85
+value: 0
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	84 -> 85
+	86 [label="
+id: 86
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	86 [label="
+id: 86
+value: 4
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	84 -> 86
+	84 [label="
+id: 84
+value: 11
+label: 1
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	73 -> 84
+	87 [label="
+id: 87
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	87 [label="
+id: 87
+value: 12
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	73 -> 87
+	88 [label="
+id: 88
+label: 0
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	89 [label="
+id: 89
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	89 [label="
+id: 89
+value: 2
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	88 -> 89
+	90 [label="
+id: 90
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	90 [label="
+id: 90
+value: 3
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	88 -> 90
+	88 [label="
+id: 88
+value: 13
+label: 0
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	73 -> 88
+	91 [label="
+id: 91
+label: 5
+attribute: pixel_4
+entropy: 1.0
+samples: 4
+classCounts: [0, 0, 0, 0, 0, 2, 0, 0, 0, 2]"]
+	92 [label="
+id: 92
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	92 [label="
+id: 92
+value: 10
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	91 -> 92
+	93 [label="
+id: 93
+value: 12
+label: 5
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 2, 0, 0, 0, 0]"]
+	91 -> 93
+	94 [label="
+id: 94
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	94 [label="
+id: 94
+value: 15
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	91 -> 94
+	91 [label="
+id: 91
+value: 15
+label: 5
+attribute: pixel_4
+entropy: 1.0
+samples: 4
+classCounts: [0, 0, 0, 0, 0, 2, 0, 0, 0, 2]"]
+	73 -> 91
+	73 [label="
+id: 73
+value: 1
+label: 9
+attribute: pixel_19
+entropy: 2.594195041880603
+samples: 27
+classCounts: [1, 3, 3, 1, 2, 5, 0, 0, 2, 10]"]
+	0 -> 73
+	95 [label="
+id: 95
+label: 5
+attribute: pixel_60
+entropy: 2.4834585933443494
+samples: 16
+classCounts: [0, 0, 1, 1, 2, 6, 1, 0, 2, 3]"]
+	96 [label="
+id: 96
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	96 [label="
+id: 96
+value: 2
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	95 -> 96
+	97 [label="
+id: 97
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	97 [label="
+id: 97
+value: 6
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	95 -> 97
+	98 [label="
+id: 98
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	98 [label="
+id: 98
+value: 8
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	95 -> 98
+	99 [label="
+id: 99
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	99 [label="
+id: 99
+value: 11
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	95 -> 99
+	100 [label="
+id: 100
+value: 12
+label: 9
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 2]"]
+	95 -> 100
+	101 [label="
+id: 101
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	101 [label="
+id: 101
+value: 13
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	95 -> 101
+	102 [label="
+id: 102
+value: 14
+label: 5
+entropy: -0.0
+samples: 3
+classCounts: [0, 0, 0, 0, 0, 3, 0, 0, 0, 0]"]
+	95 -> 102
+	103 [label="
+id: 103
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	103 [label="
+id: 103
+value: 15
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	95 -> 103
+	95 [label="
+id: 95
+value: 2
+label: 5
+attribute: pixel_60
+entropy: 2.4834585933443494
+samples: 16
+classCounts: [0, 0, 1, 1, 2, 6, 1, 0, 2, 3]"]
+	0 -> 95
+	104 [label="
+id: 104
+label: 9
+attribute: pixel_11
+entropy: 2.745085187108269
+samples: 27
+classCounts: [2, 1, 3, 4, 1, 6, 1, 0, 1, 8]"]
+	105 [label="
+id: 105
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	105 [label="
+id: 105
+value: 0
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	104 -> 105
+	106 [label="
+id: 106
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	106 [label="
+id: 106
+value: 1
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	104 -> 106
+	107 [label="
+id: 107
+label: 3
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 1, 1, 0, 0, 0, 0, 0]"]
+	108 [label="
+id: 108
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	108 [label="
+id: 108
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	107 -> 108
+	109 [label="
+id: 109
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	109 [label="
+id: 109
+value: 1
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	107 -> 109
+	107 [label="
+id: 107
+value: 2
+label: 3
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 1, 1, 0, 0, 0, 0, 0]"]
+	104 -> 107
+	110 [label="
+id: 110
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	110 [label="
+id: 110
+value: 3
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	104 -> 110
+	111 [label="
+id: 111
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	111 [label="
+id: 111
+value: 7
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	104 -> 111
+	112 [label="
+id: 112
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	112 [label="
+id: 112
+value: 8
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	104 -> 112
+	113 [label="
+id: 113
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	113 [label="
+id: 113
+value: 11
+label: 0
+entropy: -0.0
+samples: 1
+classCounts: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	104 -> 113
+	114 [label="
+id: 114
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	114 [label="
+id: 114
+value: 12
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	104 -> 114
+	115 [label="
+id: 115
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	115 [label="
+id: 115
+value: 13
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	104 -> 115
+	116 [label="
+id: 116
+label: 2
+attribute: pixel_3
+entropy: 2.0
+samples: 4
+classCounts: [0, 0, 1, 1, 0, 0, 1, 0, 0, 1]"]
+	117 [label="
+id: 117
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	117 [label="
+id: 117
+value: 1
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	116 -> 117
+	118 [label="
+id: 118
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	118 [label="
+id: 118
+value: 5
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	116 -> 118
+	119 [label="
+id: 119
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	119 [label="
+id: 119
+value: 6
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	116 -> 119
+	116 [label="
+id: 116
+value: 14
+label: 2
+attribute: pixel_3
+entropy: 2.0
+samples: 4
+classCounts: [0, 0, 1, 1, 0, 0, 1, 0, 0, 1]"]
+	104 -> 116
+	120 [label="
+id: 120
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 1, 0, 0, 0, 0]"]
+	121 [label="
+id: 121
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	121 [label="
+id: 121
+value: 7
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	120 -> 121
+	122 [label="
+id: 122
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	122 [label="
+id: 122
+value: 10
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	120 -> 122
+	120 [label="
+id: 120
+value: 15
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 1, 0, 0, 0, 0]"]
+	104 -> 120
+	104 [label="
+id: 104
+value: 3
+label: 9
+attribute: pixel_11
+entropy: 2.745085187108269
+samples: 27
+classCounts: [2, 1, 3, 4, 1, 6, 1, 0, 1, 8]"]
+	0 -> 104
+	123 [label="
+id: 123
+label: 9
+attribute: pixel_28
+entropy: 2.7139496992278396
+samples: 26
+classCounts: [0, 1, 5, 2, 1, 3, 3, 1, 1, 9]"]
+	124 [label="
+id: 124
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	124 [label="
+id: 124
+value: 0
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	123 -> 124
+	125 [label="
+id: 125
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	125 [label="
+id: 125
+value: 1
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	123 -> 125
+	126 [label="
+id: 126
+label: 6
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 1]"]
+	127 [label="
+id: 127
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	127 [label="
+id: 127
+value: 3
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	126 -> 127
+	128 [label="
+id: 128
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	128 [label="
+id: 128
+value: 9
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	126 -> 128
+	126 [label="
+id: 126
+value: 3
+label: 6
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 1]"]
+	123 -> 126
+	129 [label="
+id: 129
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	129 [label="
+id: 129
+value: 4
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	123 -> 129
+	130 [label="
+id: 130
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	130 [label="
+id: 130
+value: 5
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	123 -> 130
+	131 [label="
+id: 131
+label: 2
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 0, 1, 0, 0, 0]"]
+	132 [label="
+id: 132
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	132 [label="
+id: 132
+value: 0
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	131 -> 132
+	133 [label="
+id: 133
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	133 [label="
+id: 133
+value: 4
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	131 -> 133
+	131 [label="
+id: 131
+value: 8
+label: 2
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 0, 1, 0, 0, 0]"]
+	123 -> 131
+	134 [label="
+id: 134
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 1, 0, 0, 0, 0, 0, 0]"]
+	135 [label="
+id: 135
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	135 [label="
+id: 135
+value: 8
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	134 -> 135
+	136 [label="
+id: 136
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	136 [label="
+id: 136
+value: 10
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	134 -> 136
+	134 [label="
+id: 134
+value: 10
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 1, 0, 0, 0, 0, 0, 0]"]
+	123 -> 134
+	137 [label="
+id: 137
+label: 2
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 1, 0, 0, 0, 0, 0, 0]"]
+	138 [label="
+id: 138
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	138 [label="
+id: 138
+value: 0
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	137 -> 138
+	139 [label="
+id: 139
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	139 [label="
+id: 139
+value: 2
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	137 -> 139
+	137 [label="
+id: 137
+value: 11
+label: 2
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 1, 0, 0, 0, 0, 0, 0]"]
+	123 -> 137
+	140 [label="
+id: 140
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	140 [label="
+id: 140
+value: 12
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	123 -> 140
+	141 [label="
+id: 141
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	141 [label="
+id: 141
+value: 13
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	123 -> 141
+	142 [label="
+id: 142
+value: 14
+label: 9
+entropy: -0.0
+samples: 4
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 4]"]
+	123 -> 142
+	143 [label="
+id: 143
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	143 [label="
+id: 143
+value: 15
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	123 -> 143
+	123 [label="
+id: 123
+value: 4
+label: 9
+attribute: pixel_28
+entropy: 2.7139496992278396
+samples: 26
+classCounts: [0, 1, 5, 2, 1, 3, 3, 1, 1, 9]"]
+	0 -> 123
+	144 [label="
+id: 144
+label: 2
+attribute: pixel_29
+entropy: 2.6488840705376355
+samples: 25
+classCounts: [0, 2, 6, 4, 0, 3, 5, 0, 1, 4]"]
+	145 [label="
+id: 145
+value: 0
+label: 6
+entropy: -0.0
+samples: 4
+classCounts: [0, 0, 0, 0, 0, 0, 4, 0, 0, 0]"]
+	144 -> 145
+	146 [label="
+id: 146
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	146 [label="
+id: 146
+value: 1
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	144 -> 146
+	147 [label="
+id: 147
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	147 [label="
+id: 147
+value: 7
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	144 -> 147
+	148 [label="
+id: 148
+value: 8
+label: 2
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 2, 0, 0, 0, 0, 0, 0, 0]"]
+	144 -> 148
+	149 [label="
+id: 149
+label: 1
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	150 [label="
+id: 150
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	150 [label="
+id: 150
+value: 0
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	149 -> 150
+	151 [label="
+id: 151
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	151 [label="
+id: 151
+value: 1
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	149 -> 151
+	149 [label="
+id: 149
+value: 11
+label: 1
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	144 -> 149
+	152 [label="
+id: 152
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	152 [label="
+id: 152
+value: 12
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	144 -> 152
+	153 [label="
+id: 153
+label: 2
+attribute: pixel_2
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 2, 0, 0, 0, 0, 0, 1, 0]"]
+	154 [label="
+id: 154
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	154 [label="
+id: 154
+value: 0
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	153 -> 154
+	155 [label="
+id: 155
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	155 [label="
+id: 155
+value: 2
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	153 -> 155
+	156 [label="
+id: 156
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	156 [label="
+id: 156
+value: 4
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	153 -> 156
+	153 [label="
+id: 153
+value: 14
+label: 2
+attribute: pixel_2
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 2, 0, 0, 0, 0, 0, 1, 0]"]
+	144 -> 153
+	157 [label="
+id: 157
+label: 2
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 1, 0, 0, 0, 0]"]
+	158 [label="
+id: 158
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	158 [label="
+id: 158
+value: 1
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	157 -> 158
+	159 [label="
+id: 159
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	159 [label="
+id: 159
+value: 2
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	157 -> 159
+	157 [label="
+id: 157
+value: 15
+label: 2
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 1, 0, 0, 0, 0]"]
+	144 -> 157
+	144 [label="
+id: 144
+value: 5
+label: 2
+attribute: pixel_29
+entropy: 2.6488840705376355
+samples: 25
+classCounts: [0, 2, 6, 4, 0, 3, 5, 0, 1, 4]"]
+	0 -> 144
+	160 [label="
+id: 160
+label: 8
+attribute: pixel_11
+entropy: 2.735761283067285
+samples: 23
+classCounts: [0, 0, 4, 3, 2, 4, 2, 0, 5, 3]"]
+	161 [label="
+id: 161
+value: 1
+label: 4
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 2, 0, 0, 0, 0, 0]"]
+	160 -> 161
+	162 [label="
+id: 162
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	162 [label="
+id: 162
+value: 3
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	160 -> 162
+	163 [label="
+id: 163
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	163 [label="
+id: 163
+value: 4
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	160 -> 163
+	164 [label="
+id: 164
+value: 8
+label: 6
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 2, 0, 0, 0]"]
+	160 -> 164
+	165 [label="
+id: 165
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	165 [label="
+id: 165
+value: 11
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	160 -> 165
+	166 [label="
+id: 166
+label: 8
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 1]"]
+	167 [label="
+id: 167
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	167 [label="
+id: 167
+value: 2
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	166 -> 167
+	168 [label="
+id: 168
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	168 [label="
+id: 168
+value: 3
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	166 -> 168
+	166 [label="
+id: 166
+value: 12
+label: 8
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 1]"]
+	160 -> 166
+	169 [label="
+id: 169
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	169 [label="
+id: 169
+value: 14
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	160 -> 169
+	170 [label="
+id: 170
+label: 2
+attribute: pixel_4
+entropy: 1.5
+samples: 4
+classCounts: [0, 0, 2, 1, 0, 1, 0, 0, 0, 0]"]
+	171 [label="
+id: 171
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	171 [label="
+id: 171
+value: 12
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	170 -> 171
+	172 [label="
+id: 172
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	172 [label="
+id: 172
+value: 13
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	170 -> 172
+	173 [label="
+id: 173
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	173 [label="
+id: 173
+value: 14
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	170 -> 173
+	174 [label="
+id: 174
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	174 [label="
+id: 174
+value: 15
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	170 -> 174
+	170 [label="
+id: 170
+value: 15
+label: 2
+attribute: pixel_4
+entropy: 1.5
+samples: 4
+classCounts: [0, 0, 2, 1, 0, 1, 0, 0, 0, 0]"]
+	160 -> 170
+	160 [label="
+id: 160
+value: 6
+label: 8
+attribute: pixel_11
+entropy: 2.735761283067285
+samples: 23
+classCounts: [0, 0, 4, 3, 2, 4, 2, 0, 5, 3]"]
+	0 -> 160
+	175 [label="
+id: 175
+label: 2
+attribute: pixel_27
+entropy: 2.7314193061059857
+samples: 23
+classCounts: [0, 1, 5, 1, 2, 4, 1, 5, 0, 4]"]
+	176 [label="
+id: 176
+value: 0
+label: 2
+entropy: -0.0
+samples: 3
+classCounts: [0, 0, 3, 0, 0, 0, 0, 0, 0, 0]"]
+	175 -> 176
+	177 [label="
+id: 177
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	177 [label="
+id: 177
+value: 3
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	175 -> 177
+	178 [label="
+id: 178
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	178 [label="
+id: 178
+value: 6
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	175 -> 178
+	179 [label="
+id: 179
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	179 [label="
+id: 179
+value: 7
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	175 -> 179
+	180 [label="
+id: 180
+value: 8
+label: 7
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]"]
+	175 -> 180
+	181 [label="
+id: 181
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 1, 0, 0, 0, 0]"]
+	182 [label="
+id: 182
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	182 [label="
+id: 182
+value: 10
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	181 -> 182
+	183 [label="
+id: 183
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	183 [label="
+id: 183
+value: 11
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	181 -> 183
+	181 [label="
+id: 181
+value: 10
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 1, 0, 0, 0, 0]"]
+	175 -> 181
+	184 [label="
+id: 184
+label: 4
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 1, 0, 0, 0, 0]"]
+	185 [label="
+id: 185
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	185 [label="
+id: 185
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	184 -> 185
+	186 [label="
+id: 186
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	186 [label="
+id: 186
+value: 6
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	184 -> 186
+	184 [label="
+id: 184
+value: 11
+label: 4
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 1, 0, 0, 0, 0]"]
+	175 -> 184
+	187 [label="
+id: 187
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	187 [label="
+id: 187
+value: 12
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	175 -> 187
+	188 [label="
+id: 188
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	188 [label="
+id: 188
+value: 13
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	175 -> 188
+	189 [label="
+id: 189
+label: 1
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	190 [label="
+id: 190
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	190 [label="
+id: 190
+value: 0
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	189 -> 190
+	191 [label="
+id: 191
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	191 [label="
+id: 191
+value: 2
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	189 -> 191
+	189 [label="
+id: 189
+value: 14
+label: 1
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	175 -> 189
+	192 [label="
+id: 192
+label: 4
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 0, 1, 0, 0]"]
+	193 [label="
+id: 193
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	193 [label="
+id: 193
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	192 -> 193
+	194 [label="
+id: 194
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	194 [label="
+id: 194
+value: 1
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	192 -> 194
+	192 [label="
+id: 192
+value: 15
+label: 4
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 0, 1, 0, 0]"]
+	175 -> 192
+	175 [label="
+id: 175
+value: 7
+label: 2
+attribute: pixel_27
+entropy: 2.7314193061059857
+samples: 23
+classCounts: [0, 1, 5, 1, 2, 4, 1, 5, 0, 4]"]
+	0 -> 175
+	195 [label="
+id: 195
+label: 6
+attribute: pixel_22
+entropy: 2.7539070264502126
+samples: 60
+classCounts: [0, 8, 2, 11, 4, 12, 13, 0, 2, 8]"]
+	196 [label="
+id: 196
+label: 6
+attribute: pixel_11
+entropy: 1.320924277228159
+samples: 25
+classCounts: [0, 0, 0, 2, 0, 11, 12, 0, 0, 0]"]
+	197 [label="
+id: 197
+value: 3
+label: 6
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 2, 0, 0, 0]"]
+	196 -> 197
+	198 [label="
+id: 198
+value: 4
+label: 6
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 2, 0, 0, 0]"]
+	196 -> 198
+	199 [label="
+id: 199
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	199 [label="
+id: 199
+value: 6
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	196 -> 199
+	200 [label="
+id: 200
+value: 7
+label: 6
+entropy: -0.0
+samples: 3
+classCounts: [0, 0, 0, 0, 0, 0, 3, 0, 0, 0]"]
+	196 -> 200
+	201 [label="
+id: 201
+value: 9
+label: 6
+entropy: -0.0
+samples: 3
+classCounts: [0, 0, 0, 0, 0, 0, 3, 0, 0, 0]"]
+	196 -> 201
+	202 [label="
+id: 202
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	202 [label="
+id: 202
+value: 10
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	196 -> 202
+	203 [label="
+id: 203
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	203 [label="
+id: 203
+value: 11
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	196 -> 203
+	204 [label="
+id: 204
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	204 [label="
+id: 204
+value: 12
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	196 -> 204
+	205 [label="
+id: 205
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	205 [label="
+id: 205
+value: 14
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	196 -> 205
+	206 [label="
+id: 206
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	206 [label="
+id: 206
+value: 15
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	196 -> 206
+	196 [label="
+id: 196
+value: 0
+label: 6
+attribute: pixel_11
+entropy: 1.320924277228159
+samples: 25
+classCounts: [0, 0, 0, 2, 0, 11, 12, 0, 0, 0]"]
+	195 -> 196
+	207 [label="
+id: 207
+label: 3
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 1, 0, 1, 0, 0, 0, 0]"]
+	208 [label="
+id: 208
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	208 [label="
+id: 208
+value: 13
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	207 -> 208
+	209 [label="
+id: 209
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	209 [label="
+id: 209
+value: 14
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	207 -> 209
+	207 [label="
+id: 207
+value: 1
+label: 3
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 1, 0, 1, 0, 0, 0, 0]"]
+	195 -> 207
+	210 [label="
+id: 210
+label: 1
+attribute: pixel_4
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 1, 0, 0, 1, 0, 1, 0, 0, 0]"]
+	211 [label="
+id: 211
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	211 [label="
+id: 211
+value: 0
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	210 -> 211
+	212 [label="
+id: 212
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	212 [label="
+id: 212
+value: 7
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	210 -> 212
+	213 [label="
+id: 213
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	213 [label="
+id: 213
+value: 8
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	210 -> 213
+	210 [label="
+id: 210
+value: 2
+label: 1
+attribute: pixel_4
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 1, 0, 0, 1, 0, 1, 0, 0, 0]"]
+	195 -> 210
+	214 [label="
+id: 214
+value: 3
+label: 4
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 2, 0, 0, 0, 0, 0]"]
+	195 -> 214
+	215 [label="
+id: 215
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	215 [label="
+id: 215
+value: 4
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	195 -> 215
+	216 [label="
+id: 216
+value: 6
+label: 3
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 2, 0, 0, 0, 0, 0, 0]"]
+	195 -> 216
+	217 [label="
+id: 217
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	217 [label="
+id: 217
+value: 8
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	195 -> 217
+	218 [label="
+id: 218
+label: 1
+attribute: pixel_4
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	219 [label="
+id: 219
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	219 [label="
+id: 219
+value: 7
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	218 -> 219
+	220 [label="
+id: 220
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	220 [label="
+id: 220
+value: 10
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	218 -> 220
+	218 [label="
+id: 218
+value: 9
+label: 1
+attribute: pixel_4
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	195 -> 218
+	221 [label="
+id: 221
+label: 3
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0]"]
+	222 [label="
+id: 222
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	222 [label="
+id: 222
+value: 4
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	221 -> 222
+	223 [label="
+id: 223
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	223 [label="
+id: 223
+value: 5
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	221 -> 223
+	221 [label="
+id: 221
+value: 10
+label: 3
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0]"]
+	195 -> 221
+	224 [label="
+id: 224
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	224 [label="
+id: 224
+value: 11
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	195 -> 224
+	225 [label="
+id: 225
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	225 [label="
+id: 225
+value: 12
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	195 -> 225
+	226 [label="
+id: 226
+label: 3
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 2, 0, 0, 0, 0, 0, 1]"]
+	227 [label="
+id: 227
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	227 [label="
+id: 227
+value: 2
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	226 -> 227
+	228 [label="
+id: 228
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	228 [label="
+id: 228
+value: 6
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	226 -> 228
+	229 [label="
+id: 229
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	229 [label="
+id: 229
+value: 8
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	226 -> 229
+	226 [label="
+id: 226
+value: 13
+label: 3
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 2, 0, 0, 0, 0, 0, 1]"]
+	195 -> 226
+	230 [label="
+id: 230
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	230 [label="
+id: 230
+value: 14
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	195 -> 230
+	231 [label="
+id: 231
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	231 [label="
+id: 231
+value: 15
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	195 -> 231
+	195 [label="
+id: 195
+value: 8
+label: 6
+attribute: pixel_22
+entropy: 2.7539070264502126
+samples: 60
+classCounts: [0, 8, 2, 11, 4, 12, 13, 0, 2, 8]"]
+	0 -> 195
+	232 [label="
+id: 232
+label: 2
+attribute: pixel_61
+entropy: 2.9963324936308955
+samples: 41
+classCounts: [0, 2, 9, 7, 3, 4, 3, 2, 5, 6]"]
+	233 [label="
+id: 233
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	233 [label="
+id: 233
+value: 0
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	232 -> 233
+	234 [label="
+id: 234
+label: 3
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 1]"]
+	235 [label="
+id: 235
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	235 [label="
+id: 235
+value: 0
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	234 -> 235
+	236 [label="
+id: 236
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	236 [label="
+id: 236
+value: 2
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	234 -> 236
+	234 [label="
+id: 234
+value: 1
+label: 3
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 1]"]
+	232 -> 234
+	237 [label="
+id: 237
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	237 [label="
+id: 237
+value: 3
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	232 -> 237
+	238 [label="
+id: 238
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	238 [label="
+id: 238
+value: 4
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	232 -> 238
+	239 [label="
+id: 239
+label: 1
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	240 [label="
+id: 240
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	240 [label="
+id: 240
+value: 0
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	239 -> 240
+	241 [label="
+id: 241
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	241 [label="
+id: 241
+value: 8
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	239 -> 241
+	239 [label="
+id: 239
+value: 5
+label: 1
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	232 -> 239
+	242 [label="
+id: 242
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	242 [label="
+id: 242
+value: 6
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	232 -> 242
+	243 [label="
+id: 243
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	243 [label="
+id: 243
+value: 7
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	232 -> 243
+	244 [label="
+id: 244
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	244 [label="
+id: 244
+value: 9
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	232 -> 244
+	245 [label="
+id: 245
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	245 [label="
+id: 245
+value: 10
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	232 -> 245
+	246 [label="
+id: 246
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	246 [label="
+id: 246
+value: 11
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	232 -> 246
+	247 [label="
+id: 247
+label: 2
+attribute: pixel_3
+entropy: 0.7219280948873623
+samples: 5
+classCounts: [0, 0, 4, 0, 0, 0, 0, 0, 0, 1]"]
+	248 [label="
+id: 248
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	248 [label="
+id: 248
+value: 0
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	247 -> 248
+	249 [label="
+id: 249
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	249 [label="
+id: 249
+value: 5
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	247 -> 249
+	250 [label="
+id: 250
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	250 [label="
+id: 250
+value: 8
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	247 -> 250
+	251 [label="
+id: 251
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	251 [label="
+id: 251
+value: 11
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	247 -> 251
+	252 [label="
+id: 252
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	252 [label="
+id: 252
+value: 13
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	247 -> 252
+	247 [label="
+id: 247
+value: 12
+label: 2
+attribute: pixel_3
+entropy: 0.7219280948873623
+samples: 5
+classCounts: [0, 0, 4, 0, 0, 0, 0, 0, 0, 1]"]
+	232 -> 247
+	253 [label="
+id: 253
+label: 3
+attribute: pixel_4
+entropy: 2.2516291673878226
+samples: 6
+classCounts: [0, 1, 0, 2, 1, 0, 1, 0, 0, 1]"]
+	254 [label="
+id: 254
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	254 [label="
+id: 254
+value: 2
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	253 -> 254
+	255 [label="
+id: 255
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	255 [label="
+id: 255
+value: 11
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	253 -> 255
+	256 [label="
+id: 256
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	256 [label="
+id: 256
+value: 12
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	253 -> 256
+	257 [label="
+id: 257
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	257 [label="
+id: 257
+value: 13
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	253 -> 257
+	253 [label="
+id: 253
+value: 13
+label: 3
+attribute: pixel_4
+entropy: 2.2516291673878226
+samples: 6
+classCounts: [0, 1, 0, 2, 1, 0, 1, 0, 0, 1]"]
+	232 -> 253
+	258 [label="
+id: 258
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	258 [label="
+id: 258
+value: 14
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	232 -> 258
+	259 [label="
+id: 259
+label: 8
+attribute: pixel_4
+entropy: 1.5219280948873621
+samples: 5
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 2, 2]"]
+	260 [label="
+id: 260
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	260 [label="
+id: 260
+value: 3
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	259 -> 260
+	261 [label="
+id: 261
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	261 [label="
+id: 261
+value: 7
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	259 -> 261
+	262 [label="
+id: 262
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	262 [label="
+id: 262
+value: 10
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	259 -> 262
+	263 [label="
+id: 263
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	263 [label="
+id: 263
+value: 11
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	259 -> 263
+	264 [label="
+id: 264
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	264 [label="
+id: 264
+value: 13
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	259 -> 264
+	259 [label="
+id: 259
+value: 15
+label: 8
+attribute: pixel_4
+entropy: 1.5219280948873621
+samples: 5
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 2, 2]"]
+	232 -> 259
+	232 [label="
+id: 232
+value: 9
+label: 2
+attribute: pixel_61
+entropy: 2.9963324936308955
+samples: 41
+classCounts: [0, 2, 9, 7, 3, 4, 3, 2, 5, 6]"]
+	0 -> 232
+	265 [label="
+id: 265
+label: 1
+attribute: pixel_29
+entropy: 3.0704030183385327
+samples: 49
+classCounts: [0, 8, 8, 6, 4, 6, 4, 2, 7, 4]"]
+	266 [label="
+id: 266
+label: 6
+attribute: pixel_4
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 0, 1, 0, 2, 0, 0, 0]"]
+	267 [label="
+id: 267
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	267 [label="
+id: 267
+value: 1
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	266 -> 267
+	268 [label="
+id: 268
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	268 [label="
+id: 268
+value: 7
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	266 -> 268
+	269 [label="
+id: 269
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	269 [label="
+id: 269
+value: 10
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	266 -> 269
+	266 [label="
+id: 266
+value: 0
+label: 6
+attribute: pixel_4
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 0, 1, 0, 2, 0, 0, 0]"]
+	265 -> 266
+	270 [label="
+id: 270
+label: 4
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 0, 1, 0, 0]"]
+	271 [label="
+id: 271
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	271 [label="
+id: 271
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	270 -> 271
+	272 [label="
+id: 272
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	272 [label="
+id: 272
+value: 1
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	270 -> 272
+	270 [label="
+id: 270
+value: 1
+label: 4
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 0, 1, 0, 0]"]
+	265 -> 270
+	273 [label="
+id: 273
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	273 [label="
+id: 273
+value: 2
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	265 -> 273
+	274 [label="
+id: 274
+label: 2
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 1, 0, 1, 1, 0, 0, 0, 0]"]
+	275 [label="
+id: 275
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	275 [label="
+id: 275
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	274 -> 275
+	276 [label="
+id: 276
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	276 [label="
+id: 276
+value: 2
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	274 -> 276
+	277 [label="
+id: 277
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	277 [label="
+id: 277
+value: 15
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	274 -> 277
+	274 [label="
+id: 274
+value: 3
+label: 2
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 1, 0, 1, 1, 0, 0, 0, 0]"]
+	265 -> 274
+	278 [label="
+id: 278
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	278 [label="
+id: 278
+value: 4
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	265 -> 278
+	279 [label="
+id: 279
+value: 5
+label: 1
+entropy: -0.0
+samples: 3
+classCounts: [0, 3, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	265 -> 279
+	280 [label="
+id: 280
+value: 6
+label: 1
+entropy: -0.0
+samples: 3
+classCounts: [0, 3, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	265 -> 280
+	281 [label="
+id: 281
+label: 1
+attribute: pixel_4
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	282 [label="
+id: 282
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	282 [label="
+id: 282
+value: 1
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	281 -> 282
+	283 [label="
+id: 283
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	283 [label="
+id: 283
+value: 11
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	281 -> 283
+	281 [label="
+id: 281
+value: 8
+label: 1
+attribute: pixel_4
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	265 -> 281
+	284 [label="
+id: 284
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	284 [label="
+id: 284
+value: 9
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	265 -> 284
+	285 [label="
+id: 285
+label: 1
+attribute: pixel_5
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 1, 0, 0, 0, 1, 0, 0, 0, 1]"]
+	286 [label="
+id: 286
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	286 [label="
+id: 286
+value: 5
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	285 -> 286
+	287 [label="
+id: 287
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	287 [label="
+id: 287
+value: 8
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	285 -> 287
+	288 [label="
+id: 288
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	288 [label="
+id: 288
+value: 12
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	285 -> 288
+	285 [label="
+id: 285
+value: 12
+label: 1
+attribute: pixel_5
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 1, 0, 0, 0, 1, 0, 0, 0, 1]"]
+	265 -> 285
+	289 [label="
+id: 289
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 1, 0, 0, 0, 0, 0, 0]"]
+	290 [label="
+id: 290
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	290 [label="
+id: 290
+value: 1
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	289 -> 290
+	291 [label="
+id: 291
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	291 [label="
+id: 291
+value: 2
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	289 -> 291
+	289 [label="
+id: 289
+value: 13
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 1, 0, 0, 0, 0, 0, 0]"]
+	265 -> 289
+	292 [label="
+id: 292
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	292 [label="
+id: 292
+value: 14
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	265 -> 292
+	293 [label="
+id: 293
+label: 2
+attribute: pixel_3
+entropy: 1.9219280948873623
+samples: 5
+classCounts: [0, 0, 2, 1, 0, 1, 0, 0, 0, 1]"]
+	294 [label="
+id: 294
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	294 [label="
+id: 294
+value: 6
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	293 -> 294
+	295 [label="
+id: 295
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	295 [label="
+id: 295
+value: 11
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	293 -> 295
+	296 [label="
+id: 296
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	296 [label="
+id: 296
+value: 13
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	293 -> 296
+	297 [label="
+id: 297
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	297 [label="
+id: 297
+value: 15
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	293 -> 297
+	293 [label="
+id: 293
+value: 15
+label: 2
+attribute: pixel_3
+entropy: 1.9219280948873623
+samples: 5
+classCounts: [0, 0, 2, 1, 0, 1, 0, 0, 0, 1]"]
+	265 -> 293
+	265 [label="
+id: 265
+value: 10
+label: 1
+attribute: pixel_29
+entropy: 3.0704030183385327
+samples: 49
+classCounts: [0, 8, 8, 6, 4, 6, 4, 2, 7, 4]"]
+	0 -> 265
+	298 [label="
+id: 298
+label: 2
+attribute: pixel_61
+entropy: 2.9547438880089585
+samples: 47
+classCounts: [0, 3, 11, 6, 8, 4, 6, 5, 3, 1]"]
+	299 [label="
+id: 299
+label: 7
+attribute: pixel_3
+entropy: 0.8112781244591328
+samples: 4
+classCounts: [0, 0, 0, 0, 1, 0, 0, 3, 0, 0]"]
+	300 [label="
+id: 300
+value: 10
+label: 7
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]"]
+	299 -> 300
+	301 [label="
+id: 301
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	301 [label="
+id: 301
+value: 11
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	299 -> 301
+	302 [label="
+id: 302
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	302 [label="
+id: 302
+value: 12
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	299 -> 302
+	299 [label="
+id: 299
+value: 0
+label: 7
+attribute: pixel_3
+entropy: 0.8112781244591328
+samples: 4
+classCounts: [0, 0, 0, 0, 1, 0, 0, 3, 0, 0]"]
+	298 -> 299
+	303 [label="
+id: 303
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	303 [label="
+id: 303
+value: 2
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	298 -> 303
+	304 [label="
+id: 304
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	304 [label="
+id: 304
+value: 3
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	298 -> 304
+	305 [label="
+id: 305
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	305 [label="
+id: 305
+value: 4
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	298 -> 305
+	306 [label="
+id: 306
+label: 2
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 1, 0, 0, 0, 0, 0]"]
+	307 [label="
+id: 307
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	307 [label="
+id: 307
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	306 -> 307
+	308 [label="
+id: 308
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	308 [label="
+id: 308
+value: 2
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	306 -> 308
+	306 [label="
+id: 306
+value: 6
+label: 2
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 1, 0, 0, 0, 0, 0]"]
+	298 -> 306
+	309 [label="
+id: 309
+label: 1
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	310 [label="
+id: 310
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	310 [label="
+id: 310
+value: 0
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	309 -> 310
+	311 [label="
+id: 311
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	311 [label="
+id: 311
+value: 1
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	309 -> 311
+	309 [label="
+id: 309
+value: 8
+label: 1
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 1, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	298 -> 309
+	312 [label="
+id: 312
+value: 9
+label: 1
+entropy: -0.0
+samples: 2
+classCounts: [0, 2, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	298 -> 312
+	313 [label="
+id: 313
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	313 [label="
+id: 313
+value: 10
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	298 -> 313
+	314 [label="
+id: 314
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 1, 0, 0, 0, 0, 0]"]
+	315 [label="
+id: 315
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	315 [label="
+id: 315
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	314 -> 315
+	316 [label="
+id: 316
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	316 [label="
+id: 316
+value: 10
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	314 -> 316
+	314 [label="
+id: 314
+value: 11
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 1, 0, 0, 0, 0, 0]"]
+	298 -> 314
+	317 [label="
+id: 317
+label: 4
+attribute: pixel_3
+entropy: 2.0
+samples: 4
+classCounts: [0, 0, 0, 0, 1, 1, 0, 1, 1, 0]"]
+	318 [label="
+id: 318
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	318 [label="
+id: 318
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	317 -> 318
+	319 [label="
+id: 319
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	319 [label="
+id: 319
+value: 4
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	317 -> 319
+	320 [label="
+id: 320
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	320 [label="
+id: 320
+value: 12
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	317 -> 320
+	321 [label="
+id: 321
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	321 [label="
+id: 321
+value: 15
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	317 -> 321
+	317 [label="
+id: 317
+value: 12
+label: 4
+attribute: pixel_3
+entropy: 2.0
+samples: 4
+classCounts: [0, 0, 0, 0, 1, 1, 0, 1, 1, 0]"]
+	298 -> 317
+	322 [label="
+id: 322
+label: 2
+attribute: pixel_3
+entropy: 1.5
+samples: 4
+classCounts: [0, 0, 2, 0, 1, 0, 0, 0, 0, 1]"]
+	323 [label="
+id: 323
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	323 [label="
+id: 323
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	322 -> 323
+	324 [label="
+id: 324
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	324 [label="
+id: 324
+value: 3
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	322 -> 324
+	325 [label="
+id: 325
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	325 [label="
+id: 325
+value: 11
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	322 -> 325
+	326 [label="
+id: 326
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	326 [label="
+id: 326
+value: 15
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	322 -> 326
+	322 [label="
+id: 322
+value: 13
+label: 2
+attribute: pixel_3
+entropy: 1.5
+samples: 4
+classCounts: [0, 0, 2, 0, 1, 0, 0, 0, 0, 1]"]
+	298 -> 322
+	327 [label="
+id: 327
+label: 4
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 1, 0]"]
+	328 [label="
+id: 328
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	328 [label="
+id: 328
+value: 0
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	327 -> 328
+	329 [label="
+id: 329
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	329 [label="
+id: 329
+value: 1
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	327 -> 329
+	327 [label="
+id: 327
+value: 14
+label: 4
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 1, 0]"]
+	298 -> 327
+	330 [label="
+id: 330
+label: 3
+attribute: pixel_3
+entropy: 1.3709505944546687
+samples: 5
+classCounts: [0, 0, 0, 3, 0, 1, 1, 0, 0, 0]"]
+	331 [label="
+id: 331
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	331 [label="
+id: 331
+value: 1
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	330 -> 331
+	332 [label="
+id: 332
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	332 [label="
+id: 332
+value: 4
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	330 -> 332
+	333 [label="
+id: 333
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	333 [label="
+id: 333
+value: 6
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	330 -> 333
+	334 [label="
+id: 334
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	334 [label="
+id: 334
+value: 7
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	330 -> 334
+	335 [label="
+id: 335
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	335 [label="
+id: 335
+value: 10
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	330 -> 335
+	330 [label="
+id: 330
+value: 15
+label: 3
+attribute: pixel_3
+entropy: 1.3709505944546687
+samples: 5
+classCounts: [0, 0, 0, 3, 0, 1, 1, 0, 0, 0]"]
+	298 -> 330
+	298 [label="
+id: 298
+value: 11
+label: 2
+attribute: pixel_61
+entropy: 2.9547438880089585
+samples: 47
+classCounts: [0, 3, 11, 6, 8, 4, 6, 5, 3, 1]"]
+	0 -> 298
+	336 [label="
+id: 336
+label: 2
+attribute: pixel_27
+entropy: 2.973980754559813
+samples: 65
+classCounts: [0, 4, 15, 7, 8, 7, 12, 2, 5, 5]"]
+	337 [label="
+id: 337
+label: 2
+attribute: pixel_4
+entropy: 0.8904916402194913
+samples: 13
+classCounts: [0, 0, 9, 4, 0, 0, 0, 0, 0, 0]"]
+	338 [label="
+id: 338
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	338 [label="
+id: 338
+value: 1
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	337 -> 338
+	339 [label="
+id: 339
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	339 [label="
+id: 339
+value: 12
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	337 -> 339
+	340 [label="
+id: 340
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	340 [label="
+id: 340
+value: 13
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	337 -> 340
+	341 [label="
+id: 341
+value: 15
+label: 2
+entropy: -0.0
+samples: 5
+classCounts: [0, 0, 5, 0, 0, 0, 0, 0, 0, 0]"]
+	337 -> 341
+	337 [label="
+id: 337
+value: 0
+label: 2
+attribute: pixel_4
+entropy: 0.8904916402194913
+samples: 13
+classCounts: [0, 0, 9, 4, 0, 0, 0, 0, 0, 0]"]
+	336 -> 337
+	342 [label="
+id: 342
+label: 2
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 1, 1, 0, 0, 0, 0, 1, 0]"]
+	343 [label="
+id: 343
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	343 [label="
+id: 343
+value: 1
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	342 -> 343
+	344 [label="
+id: 344
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	344 [label="
+id: 344
+value: 2
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	342 -> 344
+	345 [label="
+id: 345
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	345 [label="
+id: 345
+value: 7
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	342 -> 345
+	342 [label="
+id: 342
+value: 1
+label: 2
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 1, 1, 0, 0, 0, 0, 1, 0]"]
+	336 -> 342
+	346 [label="
+id: 346
+value: 2
+label: 3
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 2, 0, 0, 0, 0, 0, 0]"]
+	336 -> 346
+	347 [label="
+id: 347
+value: 3
+label: 2
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 2, 0, 0, 0, 0, 0, 0, 0]"]
+	336 -> 347
+	348 [label="
+id: 348
+label: 1
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 1, 0, 0, 0, 1, 0, 0, 1, 0]"]
+	349 [label="
+id: 349
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	349 [label="
+id: 349
+value: 0
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	348 -> 349
+	350 [label="
+id: 350
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	350 [label="
+id: 350
+value: 10
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	348 -> 350
+	351 [label="
+id: 351
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	351 [label="
+id: 351
+value: 12
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	348 -> 351
+	348 [label="
+id: 348
+value: 4
+label: 1
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 1, 0, 0, 0, 1, 0, 0, 1, 0]"]
+	336 -> 348
+	352 [label="
+id: 352
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 0, 0, 1, 0, 0]"]
+	353 [label="
+id: 353
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	353 [label="
+id: 353
+value: 4
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	352 -> 353
+	354 [label="
+id: 354
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	354 [label="
+id: 354
+value: 10
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	352 -> 354
+	352 [label="
+id: 352
+value: 5
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 0, 0, 1, 0, 0]"]
+	336 -> 352
+	355 [label="
+id: 355
+label: 2
+attribute: pixel_4
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 1, 0, 0, 0, 1, 0, 1, 0]"]
+	356 [label="
+id: 356
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	356 [label="
+id: 356
+value: 10
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	355 -> 356
+	355 [label="
+id: 355
+value: 6
+label: 2
+attribute: pixel_4
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 1, 0, 0, 0, 1, 0, 1, 0]"]
+	336 -> 355
+	357 [label="
+id: 357
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	357 [label="
+id: 357
+value: 8
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	336 -> 357
+	358 [label="
+id: 358
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	358 [label="
+id: 358
+value: 9
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	336 -> 358
+	359 [label="
+id: 359
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	359 [label="
+id: 359
+value: 10
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	336 -> 359
+	360 [label="
+id: 360
+label: 2
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 1, 0, 0, 0, 1, 0, 0, 1]"]
+	361 [label="
+id: 361
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	361 [label="
+id: 361
+value: 0
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	360 -> 361
+	362 [label="
+id: 362
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	362 [label="
+id: 362
+value: 3
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	360 -> 362
+	363 [label="
+id: 363
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	363 [label="
+id: 363
+value: 12
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	360 -> 363
+	360 [label="
+id: 360
+value: 11
+label: 2
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 1, 0, 0, 0, 1, 0, 0, 1]"]
+	336 -> 360
+	364 [label="
+id: 364
+label: 6
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 0, 0, 0, 2, 0, 1, 0]"]
+	365 [label="
+id: 365
+value: 0
+label: 6
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 2, 0, 0, 0]"]
+	364 -> 365
+	366 [label="
+id: 366
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	366 [label="
+id: 366
+value: 4
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	364 -> 366
+	364 [label="
+id: 364
+value: 12
+label: 6
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 0, 0, 0, 2, 0, 1, 0]"]
+	336 -> 364
+	367 [label="
+id: 367
+label: 4
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 0, 0, 1, 0, 1, 0, 0, 1]"]
+	368 [label="
+id: 368
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	368 [label="
+id: 368
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	367 -> 368
+	369 [label="
+id: 369
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	369 [label="
+id: 369
+value: 4
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	367 -> 369
+	370 [label="
+id: 370
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	370 [label="
+id: 370
+value: 11
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	367 -> 370
+	367 [label="
+id: 367
+value: 13
+label: 4
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 0, 0, 1, 0, 1, 0, 0, 1]"]
+	336 -> 367
+	371 [label="
+id: 371
+label: 4
+attribute: pixel_4
+entropy: 1.8423709931771088
+samples: 7
+classCounts: [0, 0, 0, 0, 3, 1, 2, 0, 1, 0]"]
+	372 [label="
+id: 372
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	372 [label="
+id: 372
+value: 1
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	371 -> 372
+	373 [label="
+id: 373
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	373 [label="
+id: 373
+value: 4
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	371 -> 373
+	374 [label="
+id: 374
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	374 [label="
+id: 374
+value: 6
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	371 -> 374
+	375 [label="
+id: 375
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	375 [label="
+id: 375
+value: 8
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	371 -> 375
+	376 [label="
+id: 376
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	376 [label="
+id: 376
+value: 10
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	371 -> 376
+	377 [label="
+id: 377
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	377 [label="
+id: 377
+value: 12
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	371 -> 377
+	371 [label="
+id: 371
+value: 14
+label: 4
+attribute: pixel_4
+entropy: 1.8423709931771088
+samples: 7
+classCounts: [0, 0, 0, 0, 3, 1, 2, 0, 1, 0]"]
+	336 -> 371
+	378 [label="
+id: 378
+label: 4
+attribute: pixel_4
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 1, 0, 0, 0]"]
+	379 [label="
+id: 379
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	379 [label="
+id: 379
+value: 2
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	378 -> 379
+	380 [label="
+id: 380
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	380 [label="
+id: 380
+value: 9
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	378 -> 380
+	378 [label="
+id: 378
+value: 15
+label: 4
+attribute: pixel_4
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 1, 0, 0, 0]"]
+	336 -> 378
+	336 [label="
+id: 336
+value: 12
+label: 2
+attribute: pixel_27
+entropy: 2.973980754559813
+samples: 65
+classCounts: [0, 4, 15, 7, 8, 7, 12, 2, 5, 5]"]
+	0 -> 336
+	381 [label="
+id: 381
+label: 8
+attribute: pixel_29
+entropy: 2.994637863454786
+samples: 74
+classCounts: [0, 6, 8, 13, 6, 8, 9, 4, 17, 3]"]
+	382 [label="
+id: 382
+label: 4
+attribute: pixel_4
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 1, 0, 0, 0]"]
+	383 [label="
+id: 383
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	383 [label="
+id: 383
+value: 5
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	382 -> 383
+	384 [label="
+id: 384
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	384 [label="
+id: 384
+value: 9
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	382 -> 384
+	382 [label="
+id: 382
+value: 0
+label: 4
+attribute: pixel_4
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 1, 0, 0, 0]"]
+	381 -> 382
+	385 [label="
+id: 385
+label: 4
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 1, 0, 0, 0]"]
+	386 [label="
+id: 386
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	386 [label="
+id: 386
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	385 -> 386
+	387 [label="
+id: 387
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	387 [label="
+id: 387
+value: 2
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	385 -> 387
+	385 [label="
+id: 385
+value: 1
+label: 4
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 1, 0, 0, 0]"]
+	381 -> 385
+	388 [label="
+id: 388
+label: 5
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 1, 1, 0, 0, 0]"]
+	389 [label="
+id: 389
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	389 [label="
+id: 389
+value: 0
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	388 -> 389
+	390 [label="
+id: 390
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	390 [label="
+id: 390
+value: 11
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	388 -> 390
+	388 [label="
+id: 388
+value: 3
+label: 5
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 1, 1, 0, 0, 0]"]
+	381 -> 388
+	391 [label="
+id: 391
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	391 [label="
+id: 391
+value: 4
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	381 -> 391
+	392 [label="
+id: 392
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	392 [label="
+id: 392
+value: 5
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	381 -> 392
+	393 [label="
+id: 393
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	393 [label="
+id: 393
+value: 6
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	381 -> 393
+	394 [label="
+id: 394
+label: 6
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 1, 0, 0, 0, 2, 0, 0, 0]"]
+	395 [label="
+id: 395
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	395 [label="
+id: 395
+value: 0
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	394 -> 395
+	396 [label="
+id: 396
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	396 [label="
+id: 396
+value: 2
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	394 -> 396
+	397 [label="
+id: 397
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	397 [label="
+id: 397
+value: 4
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	394 -> 397
+	394 [label="
+id: 394
+value: 7
+label: 6
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 1, 0, 0, 0, 2, 0, 0, 0]"]
+	381 -> 394
+	398 [label="
+id: 398
+label: 6
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 0, 0, 1, 2, 0, 0, 0]"]
+	399 [label="
+id: 399
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	399 [label="
+id: 399
+value: 0
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	398 -> 399
+	400 [label="
+id: 400
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	400 [label="
+id: 400
+value: 2
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	398 -> 400
+	401 [label="
+id: 401
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	401 [label="
+id: 401
+value: 7
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	398 -> 401
+	398 [label="
+id: 398
+value: 8
+label: 6
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 0, 0, 1, 2, 0, 0, 0]"]
+	381 -> 398
+	402 [label="
+id: 402
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 1]"]
+	403 [label="
+id: 403
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	403 [label="
+id: 403
+value: 7
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	402 -> 403
+	404 [label="
+id: 404
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	404 [label="
+id: 404
+value: 9
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	402 -> 404
+	402 [label="
+id: 402
+value: 9
+label: 2
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 1]"]
+	381 -> 402
+	405 [label="
+id: 405
+label: 4
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 1, 0, 2, 0, 0, 0, 0, 0]"]
+	406 [label="
+id: 406
+value: 0
+label: 4
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 2, 0, 0, 0, 0, 0]"]
+	405 -> 406
+	407 [label="
+id: 407
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	407 [label="
+id: 407
+value: 7
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	405 -> 407
+	405 [label="
+id: 405
+value: 11
+label: 4
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 1, 0, 2, 0, 0, 0, 0, 0]"]
+	381 -> 405
+	408 [label="
+id: 408
+label: 1
+attribute: pixel_3
+entropy: 2.0
+samples: 4
+classCounts: [0, 1, 1, 0, 0, 0, 1, 0, 1, 0]"]
+	409 [label="
+id: 409
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	409 [label="
+id: 409
+value: 0
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	408 -> 409
+	410 [label="
+id: 410
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	410 [label="
+id: 410
+value: 2
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	408 -> 410
+	411 [label="
+id: 411
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	411 [label="
+id: 411
+value: 8
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	408 -> 411
+	412 [label="
+id: 412
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	412 [label="
+id: 412
+value: 12
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	408 -> 412
+	408 [label="
+id: 408
+value: 12
+label: 1
+attribute: pixel_3
+entropy: 2.0
+samples: 4
+classCounts: [0, 1, 1, 0, 0, 0, 1, 0, 1, 0]"]
+	381 -> 408
+	413 [label="
+id: 413
+label: 8
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 2, 0]"]
+	414 [label="
+id: 414
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	414 [label="
+id: 414
+value: 1
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	413 -> 414
+	415 [label="
+id: 415
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	415 [label="
+id: 415
+value: 4
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	413 -> 415
+	416 [label="
+id: 416
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	416 [label="
+id: 416
+value: 6
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	413 -> 416
+	413 [label="
+id: 413
+value: 13
+label: 8
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 2, 0]"]
+	381 -> 413
+	417 [label="
+id: 417
+label: 3
+attribute: pixel_6
+entropy: 1.8112781244591325
+samples: 8
+classCounts: [0, 0, 0, 3, 1, 1, 0, 0, 3, 0]"]
+	418 [label="
+id: 418
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	418 [label="
+id: 418
+value: 0
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	417 -> 418
+	419 [label="
+id: 419
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	419 [label="
+id: 419
+value: 1
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	417 -> 419
+	420 [label="
+id: 420
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	420 [label="
+id: 420
+value: 4
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	417 -> 420
+	421 [label="
+id: 421
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	421 [label="
+id: 421
+value: 6
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	417 -> 421
+	422 [label="
+id: 422
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	422 [label="
+id: 422
+value: 8
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	417 -> 422
+	423 [label="
+id: 423
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	423 [label="
+id: 423
+value: 12
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	417 -> 423
+	424 [label="
+id: 424
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	424 [label="
+id: 424
+value: 13
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	417 -> 424
+	425 [label="
+id: 425
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	425 [label="
+id: 425
+value: 14
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	417 -> 425
+	417 [label="
+id: 417
+value: 14
+label: 3
+attribute: pixel_6
+entropy: 1.8112781244591325
+samples: 8
+classCounts: [0, 0, 0, 3, 1, 1, 0, 0, 3, 0]"]
+	381 -> 417
+	426 [label="
+id: 426
+label: 3
+attribute: pixel_3
+entropy: 2.2359263506290326
+samples: 7
+classCounts: [0, 0, 1, 2, 0, 1, 0, 1, 2, 0]"]
+	427 [label="
+id: 427
+value: 4
+label: 8
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 2, 0]"]
+	426 -> 427
+	428 [label="
+id: 428
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	428 [label="
+id: 428
+value: 5
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	426 -> 428
+	429 [label="
+id: 429
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	429 [label="
+id: 429
+value: 6
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	426 -> 429
+	430 [label="
+id: 430
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	430 [label="
+id: 430
+value: 7
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	426 -> 430
+	431 [label="
+id: 431
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	431 [label="
+id: 431
+value: 8
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	426 -> 431
+	432 [label="
+id: 432
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	432 [label="
+id: 432
+value: 9
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	426 -> 432
+	426 [label="
+id: 426
+value: 15
+label: 3
+attribute: pixel_3
+entropy: 2.2359263506290326
+samples: 7
+classCounts: [0, 0, 1, 2, 0, 1, 0, 1, 2, 0]"]
+	381 -> 426
+	381 [label="
+id: 381
+value: 13
+label: 8
+attribute: pixel_29
+entropy: 2.994637863454786
+samples: 74
+classCounts: [0, 6, 8, 13, 6, 8, 9, 4, 17, 3]"]
+	0 -> 381
+	433 [label="
+id: 433
+label: 1
+attribute: pixel_28
+entropy: 3.1162002116941303
+samples: 90
+classCounts: [0, 14, 8, 11, 13, 6, 10, 11, 11, 6]"]
+	434 [label="
+id: 434
+label: 2
+attribute: pixel_45
+entropy: 2.0131324651707385
+samples: 15
+classCounts: [0, 1, 7, 3, 0, 0, 2, 2, 0, 0]"]
+	435 [label="
+id: 435
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	435 [label="
+id: 435
+value: 1
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	434 -> 435
+	436 [label="
+id: 436
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	436 [label="
+id: 436
+value: 2
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	434 -> 436
+	437 [label="
+id: 437
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	437 [label="
+id: 437
+value: 3
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	434 -> 437
+	438 [label="
+id: 438
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	438 [label="
+id: 438
+value: 6
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	434 -> 438
+	439 [label="
+id: 439
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	439 [label="
+id: 439
+value: 8
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	434 -> 439
+	440 [label="
+id: 440
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	440 [label="
+id: 440
+value: 9
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	434 -> 440
+	441 [label="
+id: 441
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	441 [label="
+id: 441
+value: 11
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	434 -> 441
+	442 [label="
+id: 442
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	442 [label="
+id: 442
+value: 12
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	434 -> 442
+	443 [label="
+id: 443
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	443 [label="
+id: 443
+value: 15
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	434 -> 443
+	434 [label="
+id: 434
+value: 0
+label: 2
+attribute: pixel_45
+entropy: 2.0131324651707385
+samples: 15
+classCounts: [0, 1, 7, 3, 0, 0, 2, 2, 0, 0]"]
+	433 -> 434
+	444 [label="
+id: 444
+label: 6
+attribute: pixel_4
+entropy: 1.5
+samples: 4
+classCounts: [0, 0, 0, 1, 1, 0, 2, 0, 0, 0]"]
+	445 [label="
+id: 445
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	445 [label="
+id: 445
+value: 7
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	444 -> 445
+	446 [label="
+id: 446
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	446 [label="
+id: 446
+value: 10
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	444 -> 446
+	447 [label="
+id: 447
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	447 [label="
+id: 447
+value: 12
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	444 -> 447
+	444 [label="
+id: 444
+value: 1
+label: 6
+attribute: pixel_4
+entropy: 1.5
+samples: 4
+classCounts: [0, 0, 0, 1, 1, 0, 2, 0, 0, 0]"]
+	433 -> 444
+	448 [label="
+id: 448
+label: 4
+attribute: pixel_4
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 1, 0, 2, 0, 0, 0, 0, 0]"]
+	449 [label="
+id: 449
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	449 [label="
+id: 449
+value: 3
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	448 -> 449
+	450 [label="
+id: 450
+value: 5
+label: 4
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 2, 0, 0, 0, 0, 0]"]
+	448 -> 450
+	448 [label="
+id: 448
+value: 2
+label: 4
+attribute: pixel_4
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 1, 0, 2, 0, 0, 0, 0, 0]"]
+	433 -> 448
+	451 [label="
+id: 451
+label: 3
+attribute: pixel_11
+entropy: 1.5219280948873621
+samples: 5
+classCounts: [0, 0, 0, 2, 2, 1, 0, 0, 0, 0]"]
+	452 [label="
+id: 452
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	452 [label="
+id: 452
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	451 -> 452
+	453 [label="
+id: 453
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	453 [label="
+id: 453
+value: 6
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	451 -> 453
+	454 [label="
+id: 454
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	454 [label="
+id: 454
+value: 11
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	451 -> 454
+	451 [label="
+id: 451
+value: 3
+label: 3
+attribute: pixel_11
+entropy: 1.5219280948873621
+samples: 5
+classCounts: [0, 0, 0, 2, 2, 1, 0, 0, 0, 0]"]
+	433 -> 451
+	455 [label="
+id: 455
+value: 4
+label: 4
+entropy: -0.0
+samples: 3
+classCounts: [0, 0, 0, 0, 3, 0, 0, 0, 0, 0]"]
+	433 -> 455
+	456 [label="
+id: 456
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	456 [label="
+id: 456
+value: 5
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	433 -> 456
+	457 [label="
+id: 457
+label: 4
+attribute: pixel_4
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 0, 0, 1, 0, 0, 1, 1, 0]"]
+	458 [label="
+id: 458
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	458 [label="
+id: 458
+value: 13
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	457 -> 458
+	459 [label="
+id: 459
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	459 [label="
+id: 459
+value: 15
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	457 -> 459
+	457 [label="
+id: 457
+value: 6
+label: 4
+attribute: pixel_4
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 0, 0, 1, 0, 0, 1, 1, 0]"]
+	433 -> 457
+	460 [label="
+id: 460
+label: 4
+attribute: pixel_4
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0]"]
+	461 [label="
+id: 461
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	461 [label="
+id: 461
+value: 8
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	460 -> 461
+	462 [label="
+id: 462
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	462 [label="
+id: 462
+value: 13
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	460 -> 462
+	460 [label="
+id: 460
+value: 7
+label: 4
+attribute: pixel_4
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0]"]
+	433 -> 460
+	463 [label="
+id: 463
+label: 5
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 1, 0, 1, 0, 0]"]
+	464 [label="
+id: 464
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	464 [label="
+id: 464
+value: 4
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	463 -> 464
+	465 [label="
+id: 465
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	465 [label="
+id: 465
+value: 9
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	463 -> 465
+	463 [label="
+id: 463
+value: 8
+label: 5
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 1, 0, 1, 0, 0]"]
+	433 -> 463
+	466 [label="
+id: 466
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	466 [label="
+id: 466
+value: 9
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	433 -> 466
+	467 [label="
+id: 467
+label: 1
+attribute: pixel_5
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 1, 0, 1, 0, 0, 0, 0, 0, 1]"]
+	468 [label="
+id: 468
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	468 [label="
+id: 468
+value: 7
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	467 -> 468
+	469 [label="
+id: 469
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	469 [label="
+id: 469
+value: 13
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	467 -> 469
+	470 [label="
+id: 470
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	470 [label="
+id: 470
+value: 14
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	467 -> 470
+	467 [label="
+id: 467
+value: 10
+label: 1
+attribute: pixel_5
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 1, 0, 1, 0, 0, 0, 0, 0, 1]"]
+	433 -> 467
+	471 [label="
+id: 471
+label: 5
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 1, 0]"]
+	472 [label="
+id: 472
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	472 [label="
+id: 472
+value: 0
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	471 -> 472
+	473 [label="
+id: 473
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	473 [label="
+id: 473
+value: 1
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	471 -> 473
+	471 [label="
+id: 471
+value: 11
+label: 5
+attribute: pixel_2
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 1, 0]"]
+	433 -> 471
+	474 [label="
+id: 474
+label: 9
+attribute: pixel_5
+entropy: 1.5
+samples: 4
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 1, 2]"]
+	475 [label="
+id: 475
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	475 [label="
+id: 475
+value: 11
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	474 -> 475
+	476 [label="
+id: 476
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	476 [label="
+id: 476
+value: 14
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	474 -> 476
+	477 [label="
+id: 477
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	477 [label="
+id: 477
+value: 15
+label: 9
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 0, 1]"]
+	474 -> 477
+	474 [label="
+id: 474
+value: 12
+label: 9
+attribute: pixel_5
+entropy: 1.5
+samples: 4
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 1, 2]"]
+	433 -> 474
+	478 [label="
+id: 478
+label: 5
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 0, 0, 0, 1, 1, 0, 1, 0]"]
+	479 [label="
+id: 479
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	479 [label="
+id: 479
+value: 2
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	478 -> 479
+	480 [label="
+id: 480
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	480 [label="
+id: 480
+value: 9
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	478 -> 480
+	478 [label="
+id: 478
+value: 13
+label: 5
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 0, 0, 0, 0, 1, 1, 0, 1, 0]"]
+	433 -> 478
+	481 [label="
+id: 481
+label: 3
+attribute: pixel_3
+entropy: 1.5
+samples: 4
+classCounts: [0, 0, 0, 2, 0, 0, 1, 0, 1, 0]"]
+	482 [label="
+id: 482
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	482 [label="
+id: 482
+value: 0
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	481 -> 482
+	483 [label="
+id: 483
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	483 [label="
+id: 483
+value: 2
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	481 -> 483
+	484 [label="
+id: 484
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	484 [label="
+id: 484
+value: 11
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	481 -> 484
+	485 [label="
+id: 485
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	485 [label="
+id: 485
+value: 12
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	481 -> 485
+	481 [label="
+id: 481
+value: 14
+label: 3
+attribute: pixel_3
+entropy: 1.5
+samples: 4
+classCounts: [0, 0, 0, 2, 0, 0, 1, 0, 1, 0]"]
+	433 -> 481
+	486 [label="
+id: 486
+label: 7
+attribute: pixel_5
+entropy: 1.8423709931771088
+samples: 7
+classCounts: [0, 0, 0, 1, 0, 1, 0, 3, 2, 0]"]
+	487 [label="
+id: 487
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	487 [label="
+id: 487
+value: 4
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	486 -> 487
+	488 [label="
+id: 488
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	488 [label="
+id: 488
+value: 6
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	486 -> 488
+	489 [label="
+id: 489
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	489 [label="
+id: 489
+value: 8
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	486 -> 489
+	486 [label="
+id: 486
+value: 15
+label: 7
+attribute: pixel_5
+entropy: 1.8423709931771088
+samples: 7
+classCounts: [0, 0, 0, 1, 0, 1, 0, 3, 2, 0]"]
+	433 -> 486
+	433 [label="
+id: 433
+value: 14
+label: 1
+attribute: pixel_28
+entropy: 3.1162002116941303
+samples: 90
+classCounts: [0, 14, 8, 11, 13, 6, 10, 11, 11, 6]"]
+	0 -> 433
+	490 [label="
+id: 490
+label: 3
+attribute: pixel_61
+entropy: 2.925085662842975
+samples: 104
+classCounts: [0, 7, 12, 18, 14, 9, 9, 17, 18, 0]"]
+	491 [label="
+id: 491
+label: 7
+attribute: pixel_5
+entropy: 1.207518749639422
+samples: 12
+classCounts: [0, 0, 1, 0, 1, 1, 0, 9, 0, 0]"]
+	492 [label="
+id: 492
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	492 [label="
+id: 492
+value: 4
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	491 -> 492
+	493 [label="
+id: 493
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	493 [label="
+id: 493
+value: 6
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	491 -> 493
+	494 [label="
+id: 494
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	494 [label="
+id: 494
+value: 8
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	491 -> 494
+	495 [label="
+id: 495
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	495 [label="
+id: 495
+value: 11
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	491 -> 495
+	496 [label="
+id: 496
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	496 [label="
+id: 496
+value: 12
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	491 -> 496
+	497 [label="
+id: 497
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	497 [label="
+id: 497
+value: 14
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	491 -> 497
+	498 [label="
+id: 498
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	498 [label="
+id: 498
+value: 15
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	491 -> 498
+	491 [label="
+id: 491
+value: 0
+label: 7
+attribute: pixel_5
+entropy: 1.207518749639422
+samples: 12
+classCounts: [0, 0, 1, 0, 1, 1, 0, 9, 0, 0]"]
+	490 -> 491
+	499 [label="
+id: 499
+label: 4
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 0, 1, 0, 0]"]
+	500 [label="
+id: 500
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	500 [label="
+id: 500
+value: 3
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	499 -> 500
+	501 [label="
+id: 501
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	501 [label="
+id: 501
+value: 5
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	499 -> 501
+	499 [label="
+id: 499
+value: 1
+label: 4
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 0, 1, 0, 0, 1, 0, 0]"]
+	490 -> 499
+	502 [label="
+id: 502
+value: 2
+label: 7
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]"]
+	490 -> 502
+	503 [label="
+id: 503
+label: 7
+attribute: pixel_2
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 0, 0, 1, 0, 2, 0, 0]"]
+	504 [label="
+id: 504
+value: 0
+label: 7
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]"]
+	503 -> 504
+	505 [label="
+id: 505
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	505 [label="
+id: 505
+value: 6
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	503 -> 505
+	503 [label="
+id: 503
+value: 3
+label: 7
+attribute: pixel_2
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 0, 0, 1, 0, 2, 0, 0]"]
+	490 -> 503
+	506 [label="
+id: 506
+label: 7
+attribute: pixel_4
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 0, 1, 0, 0, 2, 0, 0]"]
+	507 [label="
+id: 507
+value: 13
+label: 7
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 0, 0, 0, 2, 0, 0]"]
+	506 -> 507
+	508 [label="
+id: 508
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	508 [label="
+id: 508
+value: 15
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	506 -> 508
+	506 [label="
+id: 506
+value: 4
+label: 7
+attribute: pixel_4
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 0, 1, 0, 0, 2, 0, 0]"]
+	490 -> 506
+	509 [label="
+id: 509
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	509 [label="
+id: 509
+value: 5
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	490 -> 509
+	510 [label="
+id: 510
+label: 4
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 0, 2, 0, 0, 1, 0, 0]"]
+	511 [label="
+id: 511
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	511 [label="
+id: 511
+value: 0
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	510 -> 511
+	512 [label="
+id: 512
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	512 [label="
+id: 512
+value: 2
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	510 -> 512
+	513 [label="
+id: 513
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	513 [label="
+id: 513
+value: 3
+label: 7
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 1, 0, 0]"]
+	510 -> 513
+	510 [label="
+id: 510
+value: 7
+label: 4
+attribute: pixel_3
+entropy: 0.9182958340544896
+samples: 3
+classCounts: [0, 0, 0, 0, 2, 0, 0, 1, 0, 0]"]
+	490 -> 510
+	514 [label="
+id: 514
+label: 1
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 1, 1, 0, 0, 1, 0, 0, 0, 0]"]
+	515 [label="
+id: 515
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	515 [label="
+id: 515
+value: 0
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	514 -> 515
+	516 [label="
+id: 516
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	516 [label="
+id: 516
+value: 8
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	514 -> 516
+	517 [label="
+id: 517
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	517 [label="
+id: 517
+value: 11
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	514 -> 517
+	514 [label="
+id: 514
+value: 8
+label: 1
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 1, 1, 0, 0, 1, 0, 0, 0, 0]"]
+	490 -> 514
+	518 [label="
+id: 518
+label: 2
+attribute: pixel_4
+entropy: 1.5219280948873621
+samples: 5
+classCounts: [0, 0, 2, 0, 1, 2, 0, 0, 0, 0]"]
+	519 [label="
+id: 519
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	519 [label="
+id: 519
+value: 0
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	518 -> 519
+	520 [label="
+id: 520
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	520 [label="
+id: 520
+value: 8
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	518 -> 520
+	521 [label="
+id: 521
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	521 [label="
+id: 521
+value: 10
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	518 -> 521
+	522 [label="
+id: 522
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	522 [label="
+id: 522
+value: 11
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	518 -> 522
+	518 [label="
+id: 518
+value: 9
+label: 2
+attribute: pixel_4
+entropy: 1.5219280948873621
+samples: 5
+classCounts: [0, 0, 2, 0, 1, 2, 0, 0, 0, 0]"]
+	490 -> 518
+	523 [label="
+id: 523
+label: 3
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0]"]
+	524 [label="
+id: 524
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	524 [label="
+id: 524
+value: 0
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	523 -> 524
+	525 [label="
+id: 525
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	525 [label="
+id: 525
+value: 7
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	523 -> 525
+	523 [label="
+id: 523
+value: 10
+label: 3
+attribute: pixel_3
+entropy: 1.0
+samples: 2
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 1, 0]"]
+	490 -> 523
+	526 [label="
+id: 526
+label: 1
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 1, 1, 0, 0, 0, 0, 0, 1, 0]"]
+	527 [label="
+id: 527
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	527 [label="
+id: 527
+value: 0
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	526 -> 527
+	528 [label="
+id: 528
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	528 [label="
+id: 528
+value: 1
+label: 1
+entropy: -0.0
+samples: 1
+classCounts: [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]"]
+	526 -> 528
+	529 [label="
+id: 529
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	529 [label="
+id: 529
+value: 7
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	526 -> 529
+	526 [label="
+id: 526
+value: 11
+label: 1
+attribute: pixel_3
+entropy: 1.584962500721156
+samples: 3
+classCounts: [0, 1, 1, 0, 0, 0, 0, 0, 1, 0]"]
+	490 -> 526
+	530 [label="
+id: 530
+label: 2
+attribute: pixel_4
+entropy: 1.9219280948873623
+samples: 5
+classCounts: [0, 0, 2, 1, 1, 1, 0, 0, 0, 0]"]
+	531 [label="
+id: 531
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	531 [label="
+id: 531
+value: 8
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	530 -> 531
+	532 [label="
+id: 532
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	532 [label="
+id: 532
+value: 9
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	530 -> 532
+	533 [label="
+id: 533
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	533 [label="
+id: 533
+value: 12
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	530 -> 533
+	534 [label="
+id: 534
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	534 [label="
+id: 534
+value: 14
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	530 -> 534
+	530 [label="
+id: 530
+value: 12
+label: 2
+attribute: pixel_4
+entropy: 1.9219280948873623
+samples: 5
+classCounts: [0, 0, 2, 1, 1, 1, 0, 0, 0, 0]"]
+	490 -> 530
+	535 [label="
+id: 535
+label: 3
+attribute: pixel_20
+entropy: 2.2359263506290326
+samples: 7
+classCounts: [0, 1, 1, 2, 0, 0, 1, 0, 2, 0]"]
+	536 [label="
+id: 536
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	536 [label="
+id: 536
+value: 1
+label: 2
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]"]
+	535 -> 536
+	537 [label="
+id: 537
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	537 [label="
+id: 537
+value: 6
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	535 -> 537
+	538 [label="
+id: 538
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	538 [label="
+id: 538
+value: 8
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	535 -> 538
+	539 [label="
+id: 539
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	539 [label="
+id: 539
+value: 12
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	535 -> 539
+	540 [label="
+id: 540
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	540 [label="
+id: 540
+value: 15
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	535 -> 540
+	535 [label="
+id: 535
+value: 13
+label: 3
+attribute: pixel_20
+entropy: 2.2359263506290326
+samples: 7
+classCounts: [0, 1, 1, 2, 0, 0, 1, 0, 2, 0]"]
+	490 -> 535
+	541 [label="
+id: 541
+label: 4
+attribute: pixel_3
+entropy: 1.9182958340544893
+samples: 6
+classCounts: [0, 0, 0, 1, 2, 0, 2, 0, 1, 0]"]
+	542 [label="
+id: 542
+value: 0
+label: 4
+entropy: -0.0
+samples: 2
+classCounts: [0, 0, 0, 0, 2, 0, 0, 0, 0, 0]"]
+	541 -> 542
+	543 [label="
+id: 543
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	543 [label="
+id: 543
+value: 1
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	541 -> 543
+	544 [label="
+id: 544
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	544 [label="
+id: 544
+value: 5
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	541 -> 544
+	545 [label="
+id: 545
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	545 [label="
+id: 545
+value: 6
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	541 -> 545
+	546 [label="
+id: 546
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	546 [label="
+id: 546
+value: 10
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	541 -> 546
+	541 [label="
+id: 541
+value: 14
+label: 4
+attribute: pixel_3
+entropy: 1.9182958340544893
+samples: 6
+classCounts: [0, 0, 0, 1, 2, 0, 2, 0, 1, 0]"]
+	490 -> 541
+	547 [label="
+id: 547
+label: 3
+attribute: pixel_13
+entropy: 2.25
+samples: 8
+classCounts: [0, 0, 0, 2, 1, 2, 1, 0, 2, 0]"]
+	548 [label="
+id: 548
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	548 [label="
+id: 548
+value: 5
+label: 4
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]"]
+	547 -> 548
+	549 [label="
+id: 549
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	549 [label="
+id: 549
+value: 6
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	547 -> 549
+	550 [label="
+id: 550
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	550 [label="
+id: 550
+value: 7
+label: 6
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 1, 0, 0, 0]"]
+	547 -> 550
+	551 [label="
+id: 551
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	551 [label="
+id: 551
+value: 8
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	547 -> 551
+	552 [label="
+id: 552
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	552 [label="
+id: 552
+value: 9
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	547 -> 552
+	553 [label="
+id: 553
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	553 [label="
+id: 553
+value: 11
+label: 3
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]"]
+	547 -> 553
+	554 [label="
+id: 554
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	554 [label="
+id: 554
+value: 14
+label: 8
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]"]
+	547 -> 554
+	555 [label="
+id: 555
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	555 [label="
+id: 555
+value: 15
+label: 5
+entropy: -0.0
+samples: 1
+classCounts: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0]"]
+	547 -> 555
+	547 [label="
+id: 547
+value: 15
+label: 3
+attribute: pixel_13
+entropy: 2.25
+samples: 8
+classCounts: [0, 0, 0, 2, 1, 2, 1, 0, 2, 0]"]
+	490 -> 547
+	490 [label="
+id: 490
+value: 15
+label: 3
+attribute: pixel_61
+entropy: 2.925085662842975
+samples: 104
+classCounts: [0, 7, 12, 18, 14, 9, 9, 17, 18, 0]"]
+	0 -> 490
+}
